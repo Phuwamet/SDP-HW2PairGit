@@ -1,6 +1,10 @@
-class printLotto:
-    #lotto_1st เป็นเลขรางวัลที่ 1
-    def run_1st():
-        #เขียนโค้ดที่นี่
-        
-        return lotto_1st
+from random import randint
+a="
+for x in range(0, 5):
+    b=randint(0,9);
+    if x==0 and b==0 :
+        a+=str(0);
+    else:
+        a+=str(b);
+
+print a[:];
