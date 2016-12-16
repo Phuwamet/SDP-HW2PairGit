@@ -9,5 +9,5 @@ for x in range(1, 2):
             a+=str(b);
         if b==9 :
             break
-    print "Lotto",x,a[:];
+    print "Random No 9. : ",a[:];
     a=""
