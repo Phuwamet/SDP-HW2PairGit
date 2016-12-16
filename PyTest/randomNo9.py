@@ -1,11 +1,13 @@
 from random import randint
 a=""
 for x in range(1, 2):
-    for i in range(0,2):
+    while 1:
         b=randint(0,9);
-        if x==0 and b==0 :
+        if b==0 :
             a+=str(0);
         else:
             a+=str(b);
+        if b==9 :
+            break
     print "Lotto",x,a[:];
     a=""
